@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio ALURA</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <nav id="nav-bar">
+          <div class="container-logo-txt">
+            <img class="logo" src="./imagenes/a-alura-proyecto.png" alt="" />
+            <h1 class="titulo">lura</h1>
+          </div>
+        </nav>
+
+        <main class="main">
+          <section class="form box">
+            <form action="">
+              <div class="form-label">
+                <label for="input-texto"
+                  >Solo letras minúsculas, sin acento</label
+                >
+              </div>
+              <div id="form-input">
+                <input
+                  class="text-input"
+                  type="text"
+                  name="input-texto"
+                  id="input-texto"
+                  placeholder="Ingrese el texto aqui"
+                />
+              </div>
+
+              <div class="form-btns">
+                <input
+                  class="btn"
+                  type="button"
+                  value="Encriptar!"
+                  id="btn-encriptar"
+                />
+                <input
+                  class="btn"
+                  type="button"
+                  value="Desencriptar!"
+                  id="btn-desencriptar"
+                />
+              </div>
+            </form>
+          </section>
+
+          <section class="msg box">
+            <div id="msg-titulo">
+              <h2 id="">Desifrado:</h2>
+            </div>
+            <div id="txt-btn-input">
+                <input class="text-input-salida" type="text" id="enlace">
+                <input class="btn" type="submit" value="copiar" id="btn-copiador">
+                
+              </div>
+          </section>
+        </main>
+      </div>
+    </div>
+
+    <footer>
+        <div id="footer-creador">
+            <img src="./imagenes/rodevtranspkh.png" alt="imagen">
+            <h2>Rodrigo Moguel Mendoza™️ 2023</h2>
+        </div>
+        
+    </footer>
+
+    <script src="./main.js"></script>
+    <script src="./js/copy.js"></script>
+  </body>
+</html>
